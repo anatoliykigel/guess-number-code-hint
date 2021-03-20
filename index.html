@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Guess Number Code Hint</title>
+    <script src="./assets/js/app.js"></script>
+</head>
+<body>
+
+    <div class="container min-vh-100 d-flex align-items-center justify-content-center flex-column gap-3">
+        <h2>Игра "Угадай число"</h2>
+        <h3 id="messagePlace">Введите ваш вариант</h2>
+        <input type="number" min='1' max='100' value='1' id='userVariant'>
+        <button onclick="playRound()">Проверить</button>
+    </div>
+    
+</body>
+</html>
